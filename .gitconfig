@@ -1,0 +1,19 @@
+[alias]
+	co = checkout
+	st = status
+	br = branch
+	f = fetch
+	p = pull origin
+	pm = pull origin main
+	po = push origin
+	pom = push origin main
+	cm = commit -m
+	nbr = checkout -b
+	cod = checkout develop
+	lazy = commit --amend --no-edit --no-verify
+	graph = log --graph --oneline --decorate
+	last = log -1 HEAD
+	url = remote set-url origin 
+	dev = !git checkout develop && git pull origin develop
+	main = !git checkout main && git pull origin 
+	master = !git checkout master && git pull origin
